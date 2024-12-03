@@ -20,11 +20,11 @@ background-color: #3A3B3C;
   .maintext-up {
     font-size: 20px;
     font-weight: 700;
-    color: whitesmoke;
+    color: #C0C6C7;
   }
   .maintext-down {
     font-size: 18px;
-    color: whitesmoke;
+    color: #C0C6C7;
   }
 
 .section {
@@ -59,7 +59,9 @@ li {
     color: #C0C6C7;
     display: flex;
     align-items: center;
-
+}
+.name:hover {
+    text-shadow: #A70D2A 0px 0px 20px;
 }
 
 .top-list {
@@ -77,7 +79,9 @@ li {
     color: #C0C6C7;
     padding-top: 5%;
     padding-bottom: 5%;
+    text-shadow: #A70D2A 0px 0px 20px;
 }
+
 .cards {
     color: #C0C6C7;
     font-family: 'Courier New', Courier, monospace;
@@ -110,6 +114,7 @@ img {
     align-items: center;
     gap: 0;
     padding-top: 4%;
+    text-shadow: #A70D2A 0px 0px 20px;
 }
 
 
@@ -171,11 +176,14 @@ h4 {
     box-shadow: grey 5px 5px 5px;
 }
 button {
-    
     color: #C0C6C7;
     background-color: #283649;
     border: #1f2937;
     border-radius: 30px;
+}
+button:hover {
+    background-color: #A70D2A;
+    box-shadow: #A70D2A 5px 5px 2px 2px;
 }
 
 .footer {
