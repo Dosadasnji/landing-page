@@ -103,10 +103,12 @@ body {
         font-family: 'Courier New', Courier, monospace;
         font-size: 18px;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
         text-align: center;
-        gap: 170px;
+        gap: 150px;
+        padding: 5%;
         padding-bottom: 4%;
     }
     .card {
@@ -115,6 +117,7 @@ body {
         max-width: 200px;
         text-align: center;
         align-items: center;
+        justify-content: space-around;
         color: rgb(255, 255, 255);
         text-shadow:  rgb(255, 255, 255) 0px 0px 2px  ; 
     }
